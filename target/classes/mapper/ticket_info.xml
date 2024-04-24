@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bin.dao.TicketInfoMapper">
+
+    <insert id="batchInsert" parameterType="java.util.List">
+        INSERT INTO ticket_info (`code`,user_id,seat_id,train_id,path_status,path_info)
+        values
+        <foreach collection="ticketInfos" item="item" index="index" separator=",">
+            (#{item.code},#{item.userId},#{item.seatId},#{item.trainId},#{item.pathStatus}，#{item.pathInfo})
+        </foreach>
+    </insert>
+
+    <insert id="insert" parameterType="com.example.bin.dao.entity.TicketInfo">
+        INSERT INTO ticket_info (`code`,user_id,seat_id,train_id,path_status)
+        values
+            (#{code},#{userId},#{seatId},#{trainId},#{pathStatus})
+    </insert>
+
+
+
+</mapper>

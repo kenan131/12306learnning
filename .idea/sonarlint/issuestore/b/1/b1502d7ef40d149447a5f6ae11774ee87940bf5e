@@ -1,0 +1,17 @@
+
+<
+java:S1700"Rename field "testService"(„ÎôŒýÿÿÿÿ8ŸÂ·«æ1
+`
+java:S3518)"CMake sure this expression can't be zero before doing this division.(ŠÒ‡ý8¥¹«æ1
+R
+java:S1854)"5Remove this useless assignment to local variable "a".(ŠÒ‡ý8“¥¹«æ1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(ß¯Üøÿÿÿÿ8—¥¹«æ1
+]	java:S125$"<This block of commented-out lines of code should be removed.(ßÅÈùþÿÿÿÿ8—¥¹«æ1
+C
+java:S1481)"&Remove this unused "a" local variable.(ŠÒ‡ý8—¥¹«æ1
+]	java:S125+"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8—¥¹«æ1
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(¡¤›Üüÿÿÿÿ8›¥¹«æ1
+z
+java:S1128"XRemove this unused import 'com.baomidou.mybatisplus.core.conditions.query.QueryWrapper'.(ÓÆÂæÿÿÿÿÿ8§Â·«æ1
+i
+java:S1128"LRemove this unused import 'net.sf.jsqlparser.parser.feature.Feature.insert'.(¢¯•ß8§Â·«æ1
